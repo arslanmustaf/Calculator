@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="calculator.png" type="image/x-icon">
     <title>Calculator</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
+   
     <h2>Made By Arslan 2nd Project Friday December 9th 2k22</h2>
     <div class="container">
             <div class="heading">
@@ -18,28 +19,28 @@
         <!-- <div class="screen" id="screen"></div> -->
         <div class="functions">
             <ul>
-                <button onclick="display('7')">7</button>
-                <button onclick="display('8')">8</button>
-                <button onclick="display('9')">9</button>
-                <button class="del-btn" onclick="del()">DEL</button>
-                <button class="del-btn" onclick="Clear()">C</button>
+                <button >7</button>
+                <button >8</button>
+                <button >9</button>
+                <button class="del-btn">DEL</button>
+                <button class="del-btn">C</button>
             </ul>
             <ul>
-                <button onclick="display('4')">4</button>
-                <button onclick="display('5')">5</button>
-                <button onclick="display('6')">6</button>
-                <button onclick="display('x')">x</button>
-                <button onclick="display('÷')">÷</button>
+                <button >4</button>
+                <button >5</button>
+                <button >6</button>
+                <button >*</button>
+                <button >/</button>
             </ul>
             <ul>
-                <button button onclick="display('1')">1</button>
-                <button button onclick="display('2')">2</button>
-                <button button onclick="display('3')">3</button>
-                <button button onclick="display('+')">+</button>
-                <button button onclick="display('-')">-</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>+</button>
+                <button>-</button>
             </ul>
             <ul>
-                <button>+/-</button>
+                <button class="pbtn">%</button>
                 <button>0</button>
                 <button>.</button>
                 <button id="equal-btn">=</button>
@@ -47,7 +48,8 @@
         </div>
     </div>
 </body>
-<script>
+<script src="functions.js"></script>
+<!-- <script>
     let outputScreen = document.getElementById("screen");
 
     function display(num){
@@ -67,5 +69,5 @@
             outputScreen.value = outputScreen.value.slice(0,-1);
         }
     }
-</script>
+</script> -->
 </html>
